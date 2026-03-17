@@ -1,0 +1,8 @@
+name = "hls-proxy-neoflix"
+main = "worker.js"
+compatibility_date = "2026-03-01"
+
+# KV kullanmak istersen ekle (kanalları KV'den çekmek için)
+# [[kv_namespaces]]
+# binding = "HLS_CHANNELS"
+# id = "senin-kv-id"
